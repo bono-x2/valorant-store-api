@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Store Checker</title>
+</head>
+<body>
+    <p id = "storeinfo" style="font-size: 1;">{{ everything }}</p>
+    <img id="1" src="">
+    <img id="2" src="">
+    <img id="3" src="">
+    <img id="4" src="">
+    <script>
+        let stext = document.getElementById('storeinfo')
+        let store_info = stext.textContent;
+        stext.style.display = 'none';
+        let dailyOffers = store_info.daily_offers;
+        let img1 = dailyOffe.data[0].image;
+        console.log(img1)
+    </script>
+</body>
+</html>
