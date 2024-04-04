@@ -1,0 +1,2 @@
+Flask == 3.0.0
+valorantstore==4.0.0.0
